@@ -3,7 +3,7 @@
   "author": "Kirill Keker",
   { "licenses" :
     { "type": "MIT"
-    , "url": "https://www.opensource.org/licenses/mit-license.php"
+    , "url": "https://opensource.org/licenses/MIT"
     },
   "version": "0.0.1",
   "private": true,
