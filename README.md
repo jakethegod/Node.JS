@@ -8,8 +8,8 @@
     npm test - запуск клиента для тестирования
 
 Дополнительные материалы:
-Спецификация [JSON-RPC 2](http://www.jsonrpc.org/specification)
-Описание из [Wikipedia](https://ru.wikipedia.org/wiki/JSON-RPC)
-Описание используемого пакета [json-rpc2](https://github.com/pocesar/node-jsonrpc2) 
+- Спецификация [JSON-RPC 2](http://www.jsonrpc.org/specification)
+- Описание из [Wikipedia](https://ru.wikipedia.org/wiki/JSON-RPC)
+- Описание используемого пакета [json-rpc2](https://github.com/pocesar/node-jsonrpc2) 
 
 Проект в [Redmine](https://redmine.globus-ltd.com/projects/internship?jump=welcome) 

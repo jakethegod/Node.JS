@@ -1,7 +1,7 @@
 {
-  "name": "JSON-RPC v2 Server",
+  "name": "JSON-RPC-v2-Server",
   "author": "Kirill Keker",
-  "license": "GPL",
+  "license": "GPLv3",
   "version": "0.0.1",
   "private": true,
   "main": "Server.js",
