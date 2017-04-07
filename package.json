@@ -1,0 +1,13 @@
+{
+  "name": "JSON-RPC v2 Server",
+  "version": "0.0.1",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "node Server.js",
+    "test": "node Client.js"
+  },
+  "devDependencies": {
+    "json-rpc2": "^1.0.2"
+  }
+}
