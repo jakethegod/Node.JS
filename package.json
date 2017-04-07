@@ -1,10 +1,10 @@
 {
   "name": "JSON-RPC-v2-Server",
   "author": "Kirill Keker",
-  { "licenses" :
-    { "type": "MIT"
-    , "url": "https://opensource.org/licenses/MIT"
-    },
+  "licenses": {
+    "type": "MIT",
+    "url": "https://opensource.org/licenses/MIT"
+  },
   "version": "0.0.1",
   "private": true,
   "main": "Server.js",
