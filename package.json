@@ -2,7 +2,7 @@
   "name": "JSON-RPC-v2-Server",
   "author": "Kirill Keker",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "main": "Server.js",
   "repository": {
