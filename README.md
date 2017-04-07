@@ -1,6 +1,6 @@
 **Это проект для изучения написания API на Node.JS с использованием JSON-RPC 2**
 
-Установка:
+*Установка:*
 
     git clone https://gitlab.globus-ltd.com/k.keker/Interns-NodeJS-API.git
     npm install - установка зависимостей
