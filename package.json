@@ -11,15 +11,11 @@
   },
   "scripts": {
     "start": "node Server.js",
-    "test": "node Client.js",
-    "start-coffee": "coffee coffeescript/Server.coffee",
-    "test-coffee": "coffee coffeescript/Client.coffee"
+    "test": "node Client.js"
   },
   "dependencies": {
-    "json-rpc2": "^1.0.2",
-    "coffee-script": "^1.12.4"
+    "json-rpc2": "^1.0.2"
   },
   "devDependencies": {
-    "js2coffee": "^2.2.0"
   }
 }
