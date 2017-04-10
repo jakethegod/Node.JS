@@ -14,4 +14,4 @@ function add(args, opt, callback) {
 server.expose('add', add)
 server.listen(8000, 'localhost')
 
-console.log(Server started on http://localhost:8000/`)
+console.log("Server started on http://localhost:8000/")
