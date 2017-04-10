@@ -3,7 +3,8 @@
 
 **Установка:**
 
-    git clone https://gitlab.globus-ltd.com/k.keker/Interns-NodeJS-API.git
+    git clone https://gitlab.globus-ltd.com/k.keker/Interns-NodeJS-API.git - копирование кода проекта
+    cd Interns-NodeJS-API
     npm install - установка зависимостей
     npm start - запуск сервера
     npm test - запуск клиента для тестирования
