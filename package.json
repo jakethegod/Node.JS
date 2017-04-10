@@ -10,12 +10,13 @@
     "url": "git@https://gitlab.globus-ltd.com/k.keker/Interns-NodeJS-API.git"
   },
   "scripts": {
-    "start": "node Server.js",
-    "test": "node Client.js"
+    "start": "set DEBUG=jsonrpc && node Server.js",
+    "test": "set DEBUG=jsonrpc && node Client.js"
   },
   "dependencies": {
     "json-rpc2": "^1.0.2"
   },
   "devDependencies": {
+    "debug": "^2.6.3"
   }
 }

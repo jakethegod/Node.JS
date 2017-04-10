@@ -15,3 +15,27 @@
 - Описание используемого пакета [json-rpc2](https://github.com/pocesar/node-jsonrpc2) 
 
 Проект в [Redmine](https://redmine.globus-ltd.com/issues/27940) 
+
+**Заголовки запроса:**
+```sh
+Content-Type: application/json
+Accept: application/json
+```
+
+**Пример [POST-запроса](http://take.ms/PLdXw):**
+```sh
+{
+    "jsonrpc": "2.0",
+    "method": "add",
+    "params": [1,2],
+    "id": 1
+}
+```
+**Пример [ответа](http://take.ms/jY7KZ):**
+```sh
+{
+    "jsonrpc": "2.0",
+    "result": 3,
+    "id": 1
+}
+```
