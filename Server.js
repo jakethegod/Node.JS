@@ -10,21 +10,13 @@ var server = rpc.Server.$create({
 function add(args, opt, callback) {
     callback(null, args[0] + args[1])
 }
-
-function task1(args, opt, callback) {
-    callback(null, args[0] + ' ' + args[1] + ' ' + 'лет')
+function task1Korolev(args, opt, callback) {
+    callback(null, args[0] + ' ' + args[1] + ' year old.')
 }
 
-function echo(args, opt, callback) {
-    callback(null, args)
-}
-
-server.expose('basicTasks', {
-        'add': add,
-        'task1': task1
-})
-server.expose('debug', {
-        'echo': echo
+server.expose('add', add)
+server.expose('tasks', {
+    'task1Korolev': task1Korolev
 })
 
 server.listen(8000, 'localhost')
