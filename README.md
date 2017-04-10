@@ -22,7 +22,7 @@ Content-Type: application/json
 Accept: application/json
 ```
 
-**Пример [POST-запроса](http://take.ms/PLdXw):**
+**Пример [POST-запроса](http://take.ms/sBe99):**
 ```sh
 {
     "jsonrpc": "2.0",
