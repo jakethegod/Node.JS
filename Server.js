@@ -16,7 +16,7 @@ function task1Korolev(args, opt, callback) {
 
 server.expose('add', add)
 server.expose('tasks', {
-    'task1Korolev': task1Korolev
+    'task1Korolev1': task1Korolev
 })
 
 server.listen(8000, 'localhost')
