@@ -1,0 +1,22 @@
+{
+  "name": "JSON-RPC-v2-Server",
+  "author": "Kirill Keker",
+  "license": "MIT",
+  "version": "0.0.3",
+  "private": true,
+  "main": "Server.js",
+  "repository": {
+    "type": "git",
+    "url": "git@https://gitlab.globus-ltd.com/k.keker/Interns-NodeJS-API.git"
+  },
+  "scripts": {
+    "start": "set DEBUG=jsonrpc && node Server.js",
+    "test": "set DEBUG=jsonrpc && node Client.js"
+  },
+  "dependencies": {
+    "json-rpc2": "^1.0.2"
+  },
+  "devDependencies": {
+    "debug": "^2.6.3"
+  }
+}
