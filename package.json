@@ -2,7 +2,7 @@
   "name": "JSON-RPC-v2-Server",
   "author": "Kirill Keker",
   "license": "MIT",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "private": true,
   "main": "Server.js",
   "repository": {
@@ -11,12 +11,15 @@
   },
   "scripts": {
     "startWindows": "set DEBUG=jsonrpc && node Server.js",
-    "testWindows": "set DEBUG=jsonrpc && node Client.js",
+    "testWindows": "set DEBUG=jsonrpc && node ./test/Client.js",
     "startUnix": "export DEBUG=jsonrpc && node Server.js",
-    "testUnix": "export DEBUG=jsonrpc && node Client.js"
+    "testUnix": "export DEBUG=jsonrpc && node ./test/Client.js",
+    "start": "node Server.js",
+    "test": "node ./test/Client.js"
   },
   "dependencies": {
-    "json-rpc2": "^1.0.2"
+    "json-rpc2": "^1.0.2",
+    "nodemailer": "^4.0.1"
   },
   "devDependencies": {
     "debug": "^2.6.3"

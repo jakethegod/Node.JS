@@ -1,5 +1,8 @@
-[09.04.2017 - v.0.0.3]
-- Remove Cluster & CoffeeScript
+[15.04.2017 - v.0.0.5]
+- Add Node Cluster
+- Add JSON Config
+- Add NodeMailer
+- Add module
 
 [08.04.2017 - v.0.0.2]
 - Add CoffeeScript Support

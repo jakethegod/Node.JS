@@ -1,0 +1,15 @@
+{
+  "Mail": {
+    "Service": "Yandex",
+    "FromMail": "k.keker@ya.ru",
+    "FromName": "Kirill Keker",
+    "To": "k.keker@me.com",
+    "Subject": "Test Message",
+    "Login": "k.keker",
+    "Password": "XXXXXXXXX"
+  },
+  "Web": {
+    "ListenAddr": "127.0.0.1",
+    "ListenPort": 3000
+  }
+}
