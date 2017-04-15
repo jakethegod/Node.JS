@@ -6,3 +6,8 @@
 node_modules/
 /vcs.xml
 /_mac/
+/codestyles/
+/debugger.xml
+/filetypes.xml
+/ide.general.xml
+/ignore.xml
