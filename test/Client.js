@@ -1,7 +1,7 @@
-const rpc = require('json-rpc2')
-const Config = require('../Config')
+const rpc = require('json-rpc2');
+const Config = require('../Config.json');
 
-const client = rpc.Client.$create(Config.Web.ListenPort, Config.Web.ListenAddr)
+const client = rpc.Client.$create(Config.Web.ListenPort, Config.Web.ListenAddr;
 
 client.call('mail.send', {
     "ToMail": "k.keker@me.com",
@@ -9,4 +9,4 @@ client.call('mail.send', {
     "messTest": "Message"
 }, function (err, result) {
     console.log(result)
-})
+});
