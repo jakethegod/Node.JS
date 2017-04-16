@@ -1,9 +1,4 @@
-.idea/Interns-NodeJS-API.iml
-.idea/inspectionProfiles/
-.idea/misc.xml
-.idea/modules.xml
-.idea/workspace.xml
-node_modules/
+/node_modules/
 /vcs.xml
 /_mac/
 /codestyles/
@@ -11,3 +6,4 @@ node_modules/
 /filetypes.xml
 /ide.general.xml
 /ignore.xml
+/.idea/
