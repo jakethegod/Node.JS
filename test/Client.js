@@ -1,3 +1,5 @@
+'use strict';
+
 const rpc = require('json-rpc2');
 const Config = require('../Config.json');
 
