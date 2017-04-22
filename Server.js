@@ -4,9 +4,11 @@ const rpc = require('json-rpc2');
 const cluster = require('cluster');
 const numCPUs = require('os').cpus().length;
 const Mailer = require('./lib/sendMail');
+const Couch = require('./lib/couchActions');
 const Config = require('./Config');
 
 let sendMail = Mailer.mailer;
+let addUser = Couch.addUser;
 
 function echo(args, opt, callback) {
     callback(null, args)
@@ -19,12 +21,10 @@ let server = rpc.Server.$create({
     }
 });
 
-server.expose('basic', {
-    'echo': echo
-});
-
-server.expose('mail', {
-    'send': sendMail
+server.expose('api', {
+    'echo': echo,
+    'sendMail': sendMail,
+    'addUser': addUser
 });
 
 if (cluster.isMaster) {

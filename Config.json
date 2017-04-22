@@ -11,5 +11,15 @@
   "Web": {
     "ListenAddr": "127.0.0.1",
     "ListenPort": 3000
+  },
+  "CouchDB": {
+    "Cluster": [
+      "http://admin:globus@interns.dev.globus-ltd.com:5984",
+      "http://admin:globus@interns1.dev.globus-ltd.com:5984"
+    ],
+    "Bases": {
+      "Users": "users",
+      "Test": "test_base"
+    }
   }
 }
