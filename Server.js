@@ -9,6 +9,11 @@ const Config = require('./Config');
 
 let sendMail = Mailer.mailer;
 let addUser = Couch.addUser;
+let addUserIf = Couch.addUserIf;
+let createBase = Couch.createBase;
+let getBaseHead = Couch.getBaseHead;
+let createBaseIf=Couch.createBaseIf;
+let getDocIf = Couch.getDocIf;
 
 function echo(args, opt, callback) {
     callback(null, args)
@@ -24,7 +29,15 @@ let server = rpc.Server.$create({
 server.expose('api', {
     'echo': echo,
     'sendMail': sendMail,
-    'addUser': addUser
+    'addUser': addUser,
+    'createBase':createBase,
+    'getBaseHead':getBaseHead,
+
+
+    'addUserIf': addUserIf,
+    'createBaseIf':createBaseIf,
+    'getDocIf':getDocIf
+
 });
 
 if (cluster.isMaster) {

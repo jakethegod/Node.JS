@@ -5,12 +5,28 @@ const Config = require('../Config');
 
 const client = rpc.Client.$create(Config.Web.ListenPort, Config.Web.ListenAddr);
 
-client.call('api.addUser', {
-    "login": "k.keker",
-    "firstName": "Kirill",
-    "lastName": "Keker",
-    "email": "k.keker@globus-ltd.com",
-    "phone": "+79683846538"
-}, function (err, result) {
-    console.log(result)
-});
+client.call('api.getDocIf', {
+        "login": "k.keker1",
+        "baseName": "users"
+    },
+    function (err, result) {
+        console.dir(result)
+    });
+
+/*
+ client.call('api.createBaseIf', {"baseName": "users"},
+ function (err, result) {
+ console.dir(result)
+ });
+
+ client.call('api.addUserIf', {
+ "login": "k.keker1",
+ "firstName": "Kirill",
+ "lastName": "Keker",
+ "email": "k.keker@globus-ltd.com",
+ "phone": "+79683846538"
+ },
+ function (err, result) {
+ console.dir(result)
+ }); */
+
