@@ -14,8 +14,8 @@
   },
   "CouchDB": {
     "Cluster": [
-      "http://admin:globus@interns.dev.globus-ltd.com:5984",
-      "http://admin:globus@interns1.dev.globus-ltd.com:5984"
+      "http://localhost:5984",
+      "http://localhost:5984"
     ],
     "Bases": {
       "Users": "users",
